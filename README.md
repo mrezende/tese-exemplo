@@ -19,7 +19,7 @@ Diretório de figuras:
   - './figuras/'
   
 Compilação do documento:
-  - make pdf : usando pdflatex
+  - make pdf : usando xelatex
   - make ps  : usando latex
   Ex:
       $ make pdf
