@@ -7,7 +7,7 @@
 BASE_NAME = tese-exemplo
 
 LATEX     = latex
-PDFLATEX  = xelatex
+XELATEX  = xelatex
 BIBTEX    = bibtex
 MAKEINDEX = makeindex
 
@@ -15,12 +15,12 @@ pdf: $(BASE_NAME).pdf
 ps: $(BASE_NAME).ps
 
 $(BASE_NAME).pdf: $(BASE_NAME).tex 
-	$(PDFLATEX) $<
+	$(XELATEX) $<
 	$(BIBTEX) $(BASE_NAME) 
 	$(MAKEINDEX) $(BASE_NAME) 
-	$(PDFLATEX) $< 
-	$(PDFLATEX) $<
-	$(PDFLATEX) $<
+	$(XELATEX) $< 
+	$(XELATEX) $<
+	$(XELATEX) $<
 
 $(BASE_NAME).ps: $(BASE_NAME).tex 
 	$(LATEX) $<
