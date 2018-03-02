@@ -10,7 +10,7 @@
 *.ind
 missfont.log
 *.bbl
-*.pdf
+src/*.pdf
 *.out
 *.lof
 *.lot

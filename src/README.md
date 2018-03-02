@@ -1,6 +1,9 @@
-# Tese exemplo do IME USP 
+# Tese exemplo do IPT
 
-Exemplo de tese/dissertação utilizado no IME USP. Este exemplo foi alterado para utilizar o encoding UTF-8. Ao invés de usar o pdflatex, estou utilizando xelatex.
+Exemplo de tese/dissertação utilizado no IPT. Ao invés de usar o pdflatex, estou utilizando xelatex.
+
+Este modelo é somente uma referência, caso tenha alguma sugestão ou encontre algo que não esteja de acordo com o guia de referência do IPT, basta solicitar Pull Request.
+
 
 
 Arquivo principal: 
@@ -25,3 +28,5 @@ Compilação do documento:
       $ make pdf
   Obs: Para a compilação do documento que referencia figuras em formato 'ps' ou
        'eps' deve-se usar: 'make ps'
+
+      
