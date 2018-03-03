@@ -7,9 +7,10 @@
 %  
 % Obs: Leia previamente o texto do arquivo README.txt
 
-\documentclass[14pt,twoside,a4paper]{extbook} % utilizando extbook para atender ao modelo do IPT
+\documentclass[12pt,twoside,a4paper]{book} % utilizando extbook para atender ao modelo do IPT
 
-\usepackage{titlesec} % para alterar o tamanho da fonte das seções, subseções e capítulos
+\usepackage{sectsty}
+\allsectionsfont{\Large\bfseries}
 
 % ---------------------------------------------------------------------------- %
 % Pacotes 
@@ -38,14 +39,7 @@
 \usepackage[round,sort,nonamebreak]{natbib} % cita?o bibliogr?ica textual(plainnat-ime.bst)
 \fontsize{60}{62}\usefont{OT1}{cmr}{m}{n}{\selectfont}
 
-% alterando o tamanho da fonte para as seções de acordo com o guia do IPT
-\titleformat{\chapter}[display]
-  {\normalfont\normalsize\bfseries}{\chaptertitlename\ \thechapter}{14pt}{\Large}
-\titleformat*{\section}{\normalsize\bfseries}
-\titleformat*{\subsection}{\normalsize\bfseries}
-\titleformat*{\subsubsection}{\normalsize\bfseries}
-\titleformat*{\paragraph}{\normalsize\bfseries}
-\titleformat*{\subparagraph}{\normalsize\bfseries}
+
 
 % ---------------------------------------------------------------------------- %
 % Cabe?lhos similares ao TAOCP de Donald E. Knuth
